@@ -1,0 +1,72 @@
+.component02 {
+    display: flex;
+    justify-content: space-between;
+}
+.imageClass02{
+    margin-left: 10%;
+    height: 100vh;
+    width: 37.5vw;
+}
+.Blog02{
+    width: 110px;
+    height: 40px;
+    object-fit: contain;
+    margin: 4% 0 15% 50px;
+}
+.F-Name02{
+    display: inline-block;
+    width: 26%;
+    height: 40px;
+    margin: 0 1% 5% 21%;
+}
+.L-Name02{
+    display: inline-block;
+    width: 26%;
+    height: 40px;
+}
+.E-Mail02{
+    margin: 0 0 5% 21%;
+    width: 53%;
+    height: 40px;
+}
+.password02{
+    margin: 40px 0 5% 21%;
+    width: 53%;
+    height: 40px;
+}
+.confirmPassword02{
+    margin: 40px 80px 5% 21%;
+    width: 53%;
+    height: 40px;
+}
+@media  (max-width: 767px) {
+    .imageClass{
+        display: none;
+    }
+}
+.Signup02{
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5% 0 22% 43%;
+}
+.Signup02:hover{
+    background-color: #007bec;
+    outline: 2px solid #007bec;
+    outline-offset: 2px;
+    color: #fff;   
+}
+.Signup02:is(:hover) {
+    background-color: #007bec;
+    outline: 2px solid #007bec;
+    outline-offset: 2px;
+}
+.account02{
+    display: flex;
+    justify-content: left;
+    margin: 0px 0 2% 34%;
+}
+.Signin02{
+    cursor: pointer;
+    margin-top: -2px;
+}

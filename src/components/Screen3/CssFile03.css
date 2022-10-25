@@ -1,0 +1,281 @@
+.tabList{
+    display: flex;
+}
+.blue{
+    background-color: #007bec;
+    display: flex;
+    justify-content: space-between;
+    padding: .5%;
+}
+
+.tabList {
+    /* margin: 4px; */
+    /* padding-left: 10px;   */
+    color: #fff;  
+}
+.avatar{
+    margin-right: 8%;
+    /* margin-top: 0.8%; */
+    color: #fff;
+    cursor: pointer;
+}
+.Icon{
+    height:50%;
+    padding-left: 5%;
+    /* padding-left: 6%; */
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+.postText{
+    margin-left: 11%;
+    margin-right: 5%;
+    /* background-color: aqua; */
+    /* border: 1px solid ; */
+    /* border-top:1px solid rebeccapurple; */
+}
+.searchBar{
+    margin-right: 10px;
+}
+.drawer{
+    margin-right: 8%;
+}
+.back{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.backButton:hover,
+.backButton:focus {
+    background-color: #007bec;
+    outline: 2px solid #007bec;
+    outline-offset: 2px;
+    color: #fff;   
+}
+.backButton:is(:hover, :focus) {
+    background-color: #007bec;
+    outline: 2px solid #007bec;
+    outline-offset: 2px;
+}
+.EditDelete {
+    visibility: hidden;
+}
+
+tr:hover .EditDelete{
+    visibility: visible;
+}
+.publishButton {
+    background-color: #1890ff;  
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+    
+}
+.DashBoardDiv {
+    display: flex;
+    height: 94vh;
+}
+.DashLeftDiv{
+    border-right: 1px solid black;
+    width: 20%;
+    overflow: scroll;   
+}
+.DashRightDiv{
+    width: 100%;
+    height: 100%;
+}
+.card01{
+    margin-right: 5%;
+    padding-bottom: 5%;
+}
+.card02{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+}
+.card03{
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+.card:hover {
+    color:rgb(101, 180, 212);
+}
+.blogImage {
+    margin-top: 35px;
+}
+.blogName {
+    margin: 50px 100px 30px;
+}
+.blogContent {
+    margin: 0 100px ;
+    padding-bottom: 50px;
+    text-indent: 50px;
+}
+.mainTable{
+    margin: 0 7%;
+}
+.cardDetails {
+    margin: 150px;
+    padding: 30px;
+    background: #007aecc6;
+    width: 60%;
+}
+.userDetailsProfile {
+    display: inline;
+}
+.userDetails{
+    text-indent: 50px;
+}
+.listStylePublish{
+    padding: 10px;
+    width: 100%;
+}
+.publishShowOutUserFirstName{
+    cursor: pointer;
+}
+.avatarColor{      
+    background-color:#fff;
+    margin: 0 2% 0 5%;
+}
+.publishShowOutDatasName{
+    font-size: 30px;
+    margin: 3% 5%;
+}
+.listItemStyle:hover{
+    background-color: #d6d6d6;
+}
+.selectABlog{
+    font-size: xx-large;
+    margin: 5%;
+}
+.publishShowOutUserInfo{
+    display: flex;
+}
+.publishShowOutUserCreated{
+    margin-top: -1%;
+}
+.commentTextArea{
+    width: 94.7%;
+    margin-top: 2%;
+    margin-left: 2.7%;
+    /* margin: 2% 5% 2%; */
+}
+.editDeleteIcon {
+    margin-left: 90%;
+    /* margin-bottom: 5%; */
+}
+.commentButton{
+    margin-left: 5.3%;
+    border-radius: 4px;
+}
+.commentSide{
+    margin: 2%;
+}
+.commentButton:hover {
+    background-color: #007bec;
+    outline: 2px solid #007bec;
+    outline-offset: 2px;
+    color: #fff;   
+}
+.commentButton:is(:hover) {
+    background-color: #007bec;
+    outline: 2px solid #007bec;
+    outline-offset: 2px;
+}
+
+.deleteComment{
+    /* margin: 0 2%; */
+    cursor: pointer;
+    margin: 0 25px;
+}
+.deleteComment:hover{
+    visibility: visible;
+}
+.editComment {
+    cursor: pointer;
+}
+.editDeleteBlog{
+    visibility: hidden;
+}
+.EditDeleteBlog:hover{
+    visibility: visible;
+}
+
+.editComment01 {  
+    visibility: hidden;
+    margin-right: 25%; 
+}
+.EdidtDeleteComment{
+    margin-left: 90%;
+}
+
+
+li:hover .editComment01 {
+    visibility: visible;
+}  
+
+.userNameProfileInfo{
+    font-size: 25px;
+    padding: 1%;   
+
+}
+.userDetailsProfileInfo{
+    border: 1px solid rgb(156, 152, 152);
+    margin: 5% 10%;
+    padding: 25px;
+    /* margin: 50px 25px; */
+}
+.contentBlogout{
+    margin-left: 0%;
+}
+
+.site-layout-background-1{
+    height: 90vh !important ;
+}   
+/* .center-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.loader-triangle-3 polygon{
+    stroke: #ffeb3b;
+    stroke: #fff;
+    stroke-dasharray: 17;
+    animation: anm-tr-3-move 2.5s
+    cubic-bezier(0.35, 0.04, 0.63, 0.95) infinite;
+}
+@keyframes anm-tr-3-move {
+    to{
+        stroke-dashoffset: -136;
+    }
+} */
+
+.loader {
+    width: 48px;
+    height: 48px;
+    margin-top: 5%;
+    margin-left: 46%;
+    border: 5px solid #007bec;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
